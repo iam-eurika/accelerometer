@@ -1,16 +1,33 @@
 # accelerometer
+A flutter app which receives stream of  accelerometer data into flutter 
 
-A new Flutter project.
 
-## Getting Started
-
+## What To Know.
+- Reading, throttling the sensor data is done in kotlin.
+- the data is transmitted over an event channel.
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites:
+- flutter 3.22>=
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to run?
+1. To clone the repository:
+```bash
+git clone https://github.com/iam-eurika/accelerometer
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Open project folder
+```bash
+cd accelerometer
+
+```
+
+3. Sync the project libraries/packages 
+```bash
+flutter pub get
+```
+4. To run
+```bash
+flutter run
+```
+
